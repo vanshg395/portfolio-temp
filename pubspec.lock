@@ -36,13 +36,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.14.12"
-  csslib:
-    dependency: transitive
-    description:
-      name: csslib
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.16.1"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -67,20 +60,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_widget_from_html_core:
-    dependency: "direct main"
-    description:
-      name: flutter_widget_from_html_core
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.4.1"
-  html:
-    dependency: transitive
-    description:
-      name: html
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.14.0+3"
   matcher:
     dependency: transitive
     description:
@@ -109,13 +88,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.0+2"
-  scroll_to_index:
-    dependency: "direct main"
-    description:
-      name: scroll_to_index
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.6"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -179,4 +151,3 @@ packages:
     version: "2.0.8"
 sdks:
   dart: ">=2.7.0 <3.0.0"
-  flutter: ">=1.6.7 <2.0.0"
