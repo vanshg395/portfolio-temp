@@ -20,14 +20,17 @@ class _HomeViewState extends State<HomeView> {
       backgroundColor: Color(0xFF79d70f),
       body: CenteredView(
         child: Container(
-          decoration: BoxDecoration(color: Colors.white, boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.3),
-              offset: Offset(4, 4),
-              spreadRadius: 1,
-              blurRadius: 20,
-            )
-          ]),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.3),
+                offset: Offset(4, 4),
+                spreadRadius: 1,
+                blurRadius: 20,
+              )
+            ],
+          ),
           child: ScreenTypeLayout(
             tablet: Row(
               children: [
